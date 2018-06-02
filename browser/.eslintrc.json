@@ -16,7 +16,7 @@
     "no-console": "off",
     "no-template-curly-in-string": "error",
     "block-scoped-var": "warn",
-    "curly": ["warn", "multi-or-nest", "consistent"],
+    "curly": ["warn", "all"],
     "dot-location": ["warn", "property"],
     "dot-notation": "warn",
     "eqeqeq": ["warn", "always"],
