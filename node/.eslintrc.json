@@ -1,6 +1,6 @@
 {
   "settings": {
-    "_version": "Stolley Node.js Config, v. 2.0.1, 20180601",
+    "_version": "Stolley Node.js Config, v. 2.0.2, 20180601",
     "_eslint_version": "4.19.1",
     "_rules_url": "https://eslint.org/docs/rules/",
     "_repo_url": "https://github.com/karlstolley/eslint-config"
@@ -44,7 +44,7 @@
     "semi": ["warn", "always"],
     "semi-spacing": ["warn", {"before": false, "after": true}],
     "arrow-body-style": ["error", "as-needed"],
-    "arrow-parens": ["error", "as-needed"],
+    "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],
     "arrow-spacing": "warn",
     "no-confusing-arrow": "error",
     "no-var": "error",
