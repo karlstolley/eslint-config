@@ -1,6 +1,6 @@
 {
   "settings": {
-    "_version": "Stolley Browser Config, v. 2.0.0, 20180601",
+    "_version": "Stolley Browser Config, v. 2.0.1, 20180601",
     "_eslint_version": "4.19.1",
     "_rules_url": "https://eslint.org/docs/rules/",
     "_repo_url": "https://github.com/karlstolley/eslint-config"
