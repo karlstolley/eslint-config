@@ -1,7 +1,7 @@
 {
   "settings": {
-    "_version": "Stolley Browser Config, v. 2.0.1, 20180601",
-    "_eslint_version": "4.19.1",
+    "_version": "Stolley Browser Config, v. 2.1.0, 20200414",
+    "_eslint_version": "6.8.0",
     "_rules_url": "https://eslint.org/docs/rules/",
     "_repo_url": "https://github.com/karlstolley/eslint-config"
   },
@@ -15,6 +15,7 @@
   "rules": {
     "no-console": "off",
     "no-template-curly-in-string": "error",
+    "no-var": "warn",
     "block-scoped-var": "warn",
     "curly": ["warn", "all"],
     "dot-location": ["warn", "property"],
