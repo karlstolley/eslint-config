@@ -1,7 +1,7 @@
 {
   "settings": {
-    "_version": "Stolley Node.js Config, v. 2.0.2, 20180601",
-    "_eslint_version": "4.19.1",
+    "_version": "Stolley Node.js Config, v. 2.1.0, 20200414",
+    "_eslint_version": "6.8.0",
     "_rules_url": "https://eslint.org/docs/rules/",
     "_repo_url": "https://github.com/karlstolley/eslint-config"
   },
@@ -26,6 +26,7 @@
     "vars-on-top": "error",
     "yoda": "error",
     "strict": ["error", "global"],
+    "no-undef": "warn",
     "no-undefined": "error",
     "callback-return": "error",
     "global-require": "warn",
