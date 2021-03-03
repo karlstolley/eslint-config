@@ -1,7 +1,7 @@
 {
   "settings": {
-    "_version": "Stolley Node.js Config, v. 2.1.1, 20200415",
-    "_eslint_version": "6.8.0",
+    "_version": "Stolley Node.js Config, v. 3.0.0, 20210303",
+    "_eslint_version": "7.21.0",
     "_rules_url": "https://eslint.org/docs/rules/",
     "_repo_url": "https://github.com/karlstolley/eslint-config"
   },
@@ -17,6 +17,7 @@
     "no-console": "off",
     "no-template-curly-in-string": "error",
     "block-scoped-var": "warn",
+    "brace-style": "warn",
     "curly": ["warn", "all"],
     "dot-location": ["warn", "property"],
     "dot-notation": "warn",
