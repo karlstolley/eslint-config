@@ -1,6 +1,6 @@
 {
   "settings": {
-    "_version": "Stolley ES6 (Advanced Browser or ServiceWorker) Config, v. 2.0.0, 20210303",
+    "_version": "Stolley ES6 (Advanced Browser or ServiceWorker) Config, v. 2.0.1, 20210503",
     "_eslint_version": "7.21.0",
     "_rules_url": "https://eslint.org/docs/rules/",
     "_repo_url": "https://github.com/karlstolley/eslint-config"
@@ -14,31 +14,31 @@
   },
   "extends": "eslint:recommended",
   "rules": {
-    "no-console": "off",
-    "no-template-curly-in-string": "error",
-    "no-var": "warn",
     "block-scoped-var": "warn",
     "brace-style": "warn",
+    "comma-dangle": ["warn", "never"],
+    "comma-spacing": ["warn", { "before": false, "after": true }],
     "curly": ["warn", "all"],
     "dot-location": ["warn", "property"],
     "dot-notation": "warn",
     "eqeqeq": ["warn", "always"],
-    "no-multi-spaces": ["warn", { "ignoreEOLComments": true, "exceptions": { "Property": true } }],
-    "no-sequences": "error",
-    "require-await": "error",
-    "vars-on-top": "error",
-    "yoda": "error",
-    "strict": ["error", "global"],
-    "no-undefined": "error",
-    "comma-dangle": ["warn", "never"],
-    "comma-spacing": ["warn", { "before": false, "after": true }],
     "func-call-spacing": "warn",
     "indent": ["warn", 2],
     "linebreak-style": ["error", "unix"],
     "multiline-comment-style": ["warn", "separate-lines"],
     "newline-per-chained-call": ["warn", { "ignoreChainWithDepth": 2 }],
-    "spaced-comment": ["warn", "always"],
+    "no-console": "off",
+    "no-multi-spaces": ["warn", { "ignoreEOLComments": true, "exceptions": { "Property": true } }],
+    "no-sequences": "error",
+    "no-template-curly-in-string": "error",
+    "no-undefined": "error",
+    "no-var": "warn",
+    "require-await": "error",
     "semi": ["warn", "always"],
-    "semi-spacing": ["warn", {"before": false, "after": true}]
+    "semi-spacing": ["warn", {"before": false, "after": true}],
+    "spaced-comment": ["warn", "always"],
+    "strict": ["error", "global"],
+    "vars-on-top": "error",
+    "yoda": "error"
   }
 }
